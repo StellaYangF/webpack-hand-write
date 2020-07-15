@@ -1,0 +1,284 @@
+{
+    "errors": [],
+    "warnings": [],
+    "version": "4.43.0",
+    "hash": "f482ce111be03c729fa5",
+    "time": 111,
+    "builtAt": 1594816132657,
+    "publicPath": "",
+    "outputPath": "E:\\0-前端\\00-框架\\webpack\\hand\\dist",
+    "assetsByChunkName": {
+      "main": "main.f482ce111be03c729fa5.js"
+    },
+    "assets": [
+      {
+        "name": "main.f482ce111be03c729fa5.js",
+        "size": 4544,
+        "chunks": [
+          "main"
+        ],
+        "chunkNames": [
+          "main"
+        ],
+        "info": {
+          "immutable": true
+        },
+        "emitted": true
+      }
+    ],
+    "filteredAssets": 0,
+    "entrypoints": {
+      "main": {
+        "chunks": [
+          "main"
+        ],
+        "assets": [
+          "main.f482ce111be03c729fa5.js"
+        ],
+        "children": {},
+        "childAssets": {}
+      }
+    },
+    "namedChunkGroups": {
+      "main": {
+        "chunks": [
+          "main"
+        ],
+        "assets": [
+          "main.f482ce111be03c729fa5.js"
+        ],
+        "children": {},
+        "childAssets": {}
+      }
+    },
+    "chunks": [
+      {
+        "id": "main",
+        "rendered": true,
+        "initial": true,
+        "entry": true,
+        "size": 72,
+        "names": [
+          "main"
+        ],
+        "files": [
+          "main.f482ce111be03c729fa5.js"
+        ],
+        "hash": "273ed2089f42d761c820",
+        "siblings": [],
+        "parents": [],
+        "children": [],
+        "childrenByOrder": {},
+        "modules": [
+          {
+            "id": "./src/hello.js",
+            "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\hello.js",
+            "name": "./src/hello.js",
+            "index": 1,
+            "index2": 0,
+            "size": 23,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+              "main"
+            ],
+            "issuer": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+            "issuerId": "./src/index.js",
+            "issuerName": "./src/index.js",
+            "issuerPath": [
+              {
+                "id": "./src/index.js",
+                "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+                "name": "./src/index.js"
+              }
+            ],
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "assets": [],
+            "reasons": [
+              {
+                "moduleId": "./src/index.js",
+                "moduleIdentifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+                "module": "./src/index.js",
+                "moduleName": "./src/index.js",
+                "type": "harmony side effect evaluation",
+                "userRequest": "./hello",
+                "loc": "1:0-28"
+              },
+              {
+                "moduleId": "./src/index.js",
+                "moduleIdentifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+                "module": "./src/index.js",
+                "moduleName": "./src/index.js",
+                "type": "harmony import specifier",
+                "userRequest": "./hello",
+                "loc": "2:12-17"
+              }
+            ],
+            "providedExports": [
+              "default"
+            ],
+            "optimizationBailout": [],
+            "depth": 1,
+            "source": "export default \"hello\";"
+          },
+          {
+            "id": "./src/index.js",
+            "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+            "name": "./src/index.js",
+            "index": 0,
+            "index2": 1,
+            "size": 49,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+              "main"
+            ],
+            "issuer": null,
+            "issuerId": null,
+            "issuerName": null,
+            "issuerPath": null,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "assets": [],
+            "reasons": [
+              {
+                "moduleId": null,
+                "moduleIdentifier": null,
+                "module": null,
+                "moduleName": null,
+                "type": "single entry",
+                "userRequest": "./src/index.js",
+                "loc": "main"
+              }
+            ],
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": 0,
+            "source": "import hello from './hello';\r\nconsole.log(hello);"
+          }
+        ],
+        "filteredModules": 0,
+        "origins": [
+          {
+            "module": "",
+            "moduleIdentifier": "",
+            "moduleName": "",
+            "loc": "main",
+            "request": "./src/index.js",
+            "reasons": []
+          }
+        ]
+      }
+    ],
+    "modules": [
+      {
+        "id": "./src/hello.js",
+        "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\hello.js",
+        "name": "./src/hello.js",
+        "index": 1,
+        "index2": 0,
+        "size": 23,
+        "cacheable": true,
+        "built": true,
+        "optional": false,
+        "prefetched": false,
+        "chunks": [
+          "main"
+        ],
+        "issuer": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+        "issuerId": "./src/index.js",
+        "issuerName": "./src/index.js",
+        "issuerPath": [
+          {
+            "id": "./src/index.js",
+            "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+            "name": "./src/index.js"
+          }
+        ],
+        "failed": false,
+        "errors": 0,
+        "warnings": 0,
+        "assets": [],
+        "reasons": [
+          {
+            "moduleId": "./src/index.js",
+            "moduleIdentifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+            "module": "./src/index.js",
+            "moduleName": "./src/index.js",
+            "type": "harmony side effect evaluation",
+            "userRequest": "./hello",
+            "loc": "1:0-28"
+          },
+          {
+            "moduleId": "./src/index.js",
+            "moduleIdentifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+            "module": "./src/index.js",
+            "moduleName": "./src/index.js",
+            "type": "harmony import specifier",
+            "userRequest": "./hello",
+            "loc": "2:12-17"
+          }
+        ],
+        "providedExports": [
+          "default"
+        ],
+        "optimizationBailout": [],
+        "depth": 1,
+        "source": "export default \"hello\";"
+      },
+      {
+        "id": "./src/index.js",
+        "identifier": "E:\\0-前端\\00-框架\\webpack\\hand\\src\\index.js",
+        "name": "./src/index.js",
+        "index": 0,
+        "index2": 1,
+        "size": 49,
+        "cacheable": true,
+        "built": true,
+        "optional": false,
+        "prefetched": false,
+        "chunks": [
+          "main"
+        ],
+        "issuer": null,
+        "issuerId": null,
+        "issuerName": null,
+        "issuerPath": null,
+        "failed": false,
+        "errors": 0,
+        "warnings": 0,
+        "assets": [],
+        "reasons": [
+          {
+            "moduleId": null,
+            "moduleIdentifier": null,
+            "module": null,
+            "moduleName": null,
+            "type": "single entry",
+            "userRequest": "./src/index.js",
+            "loc": "main"
+          }
+        ],
+        "providedExports": [],
+        "optimizationBailout": [],
+        "depth": 0,
+        "source": "import hello from './hello';\r\nconsole.log(hello);"
+      }
+    ],
+    "filteredModules": 0,
+    "logging": {
+      "webpack.buildChunkGraph.visitModules": {
+        "entries": [],
+        "filteredEntries": 2,
+        "debug": false
+      }
+    },
+    "children": []
+  }
