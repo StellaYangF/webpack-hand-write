@@ -14,7 +14,7 @@ function webpack(options) {
     if (options.plugins && Array.isArray(options.plugins)) {
         options.plugins.forEach(plugin => plugin.apply(compiler));
     }
-    // 挂在默认插件
+    // 挂载默认插件
     new WebpackOptionsApply().process(options, compiler);
     return compiler;
 }
