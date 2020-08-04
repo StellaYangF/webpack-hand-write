@@ -23,14 +23,33 @@ module.exports = {
             {
                 test: /\.js$/,
                 use: [
+                    'babel-loader2',
                     'babel-loader',
+                ]
+            }, {
+                test: /\.jpg$/,
+                use: [
+                    // {
+                    //     loader: 'file-loader',
+                    //     options: {
+                    //         filename: '[contentHash].[ext]',
+                    //     }
+                    // },
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            filename: 'images/[hash].[ext]',
+                            // limit: 1024 * 20,
+                        }
+                    }
                 ]
             }
         ],
     },
     resolveLoader: {
         alias: {
-            'babel-loader': resolve('loaders/babel-loader.js'),
-        }
+            // 'babel-loader': resolve('loaders/babel-loader.js'),
+        },
+        modules: [ resolve('loaders'), 'node_modules' ],
     },
 }

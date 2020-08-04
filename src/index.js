@@ -1,3 +1,5 @@
-const add = () => 1 + 2;
+import imgSrc from  './assets/5.jpg';
 
-console.log(add());
+const img = document.createElement('img');
+img.src = imgSrc;
+document.getElementById('root').appendChild(img);
