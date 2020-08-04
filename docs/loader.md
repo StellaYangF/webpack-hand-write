@@ -187,5 +187,40 @@ loader.pitch(remainingRequest, previousRequest, data) {
 }
 ```
 
-## Fulfill Loader-runner
+## 用法准则
 
+* 简单
+
+* 链式 Chaining
+
+* 模块化 Modular
+    * 保证输出模块化
+    * loader 生成的模块与普通模块遵循相同的设计原则。
+
+* 无状态 Stateless
+
+* loader 工具库
+    * loader-utils 常用于获取传递给 loader 的选项
+    * schema-utils 包含 loader-utils，与 JSON Schema 结构一致的校验
+* loader 依赖
+
+* 模块依赖
+
+* 绝对路径 
+    * 不要在模块代码中插入绝对路径，项目根路径变化，文件绝对路径也会变
+    * 可使用 loader-utils 中的 stringifyRequest 方法将绝对转相对路径
+
+* 同等依赖
+    * loader 中包裹另一个包，应作为 peerDependency 引入。
+
+## 常用 API
+
+[详细查看](https://webpack.js.org/api/loaders/)
+
+* loaderContext.cacheable(boolean) 缓存结果
+* loaderContext.async()
+* loaderContext.callback(error, source, sourceMaps)  异步操作
+* loader.raw 二进制文件
+* loaderUtils.getOptions(loaderContext) 获取 options
+
+## 
